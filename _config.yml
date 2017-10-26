@@ -29,7 +29,7 @@ markdown: kramdown
 theme: minima
 plugins:
   - jekyll-feed
-  
+
 prose:
   rooturl: 'src/_posts'
   siteurl: 'https://jekyll-usabitblog.wedeploy.io/'
@@ -46,11 +46,11 @@ prose:
         field:
           element: "hidden"
           value: "post"
-      - name: "categories"
+      - name: "Categorias"
         field:
           element: "multiselect"
-          label: "Add Categories"
-          placeholder: "Add Categories"
+          label: "Adicionar Categoria"
+          placeholder: "Adicionar Categoria"
           alterable: true
       - name: "title"
         field:
@@ -60,8 +60,9 @@ prose:
           alterable: true
       - name: "Date"
         field:
-          element: "hidden"
+          element: "text"
           value: CURRENT_DATETIME
+          alterable: false
       - name: "image"
         field:
           element: "text"
