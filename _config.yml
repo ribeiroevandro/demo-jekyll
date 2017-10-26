@@ -31,7 +31,7 @@ plugins:
   - jekyll-feed
   
 prose:
-  rooturl: '_posts'
+  rooturl: 'src/_posts'
   siteurl: 'https://jekyll-usabitblog.wedeploy.io/'
   relativeLinks: 'https://jekyll-usabitblog.wedeploy.io/links.jsonp'
   media: 'media'
