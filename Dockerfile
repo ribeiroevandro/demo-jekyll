@@ -1,6 +1,6 @@
 FROM jekyll/builder
 
-COPY _posts/ ./src/_posts
+COPY _posts/ ./src/_posts && media ./src/media
 
 ADD . /srv/jekyll
 
