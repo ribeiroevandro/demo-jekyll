@@ -33,6 +33,7 @@ plugins:
 prose:
   rooturl: '_posts'
   siteurl: 'https://jekyll-usabitblog.wedeploy.io/'
+  relativeLinks: 'https://jekyll-usabitblog.wedeploy.io/links.jsonp'
   media: 'media'
   ignore:
     - index.md
@@ -44,27 +45,29 @@ prose:
       - name: "layout"
         field:
           element: "hidden"
-          value: "blog"
-      - name: "tags"
+          value: "post"
+      - name: "categories"
         field:
           element: "multiselect"
-          label: "Add Tags"
-          placeholder: "Choose Tags"
-          options:
-            - name: "Apples"
-              value: "apples"
-            - name: "Bananas"
-              value: "bananas"
-    _posts/static:
-      - name: "layout"
-        field:
-          element: "hidden"
-          value: "page"
-      - name: "permalink"
+          label: "Add Categories"
+          placeholder: "Add Categories"
+          alterable: true
+      - name: "title"
         field:
           element: "text"
-          label: "Permalink"
-          value: ""
+          label: "Post title"
+          placeholder: "Title"
+          alterable: true
+      - name: "image"
+        field:
+          element: "text"
+          label: "Add Image to Post"
+          placeholder: "Image path (relative to /assets/post-images/)"
+          alterable: true
+      - name: "excerpt_separator"
+        field:
+          element: "hidden"
+          value: "<!--more-->"
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
