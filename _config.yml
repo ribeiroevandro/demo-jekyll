@@ -58,16 +58,16 @@ prose:
           label: "Post title"
           placeholder: "Title"
           alterable: true
+      - name: "Date"
+        field:
+          element: "hidden"
+          value: CURRENT_DATETIME
       - name: "image"
         field:
           element: "text"
           label: "Add Image to Post"
           placeholder: "Image path (relative to /assets/post-images/)"
           alterable: true
-      - name: "excerpt_separator"
-        field:
-          element: "hidden"
-          value: "<!--more-->"
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
