@@ -25,6 +25,7 @@ twitter_username: jekyllrb
 github_username:  jekyll
 
 # Build settings
+permalink: /:year/:month/:day/:title/
 markdown: kramdown
 theme: minima
 plugins:
@@ -46,7 +47,7 @@ prose:
         field:
           element: "hidden"
           value: "post"
-      - name: "Categorias"
+      - name: "categories"
         field:
           element: "multiselect"
           label: "Adicionar Categoria"
