@@ -7,7 +7,5 @@ categories:
   - teste
 published: true
 Date: '2017-10-26 02:45 -0200'
-Categorias:
-  - Teste
 ---
 Validando a merda, caralho cada hora um erro.
