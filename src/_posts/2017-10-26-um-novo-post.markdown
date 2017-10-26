@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Um Novo Post
+title: "Um Novo Post"
 date: '2017-10-26 01:14:00 -0700'
 categories: jekyll update
 published: true
