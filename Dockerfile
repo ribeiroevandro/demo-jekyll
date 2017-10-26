@@ -1,4 +1,4 @@
-FROM jekyll/jekyll
+FROM jekyll/builder
 
 ADD . /src/jekyll
 
