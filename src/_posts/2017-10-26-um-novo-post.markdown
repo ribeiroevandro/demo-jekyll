@@ -1,8 +1,10 @@
 ---
 layout: post
-title: "Um Novo Post"
-date: 2017-10-26 01:30:00
+title: Um Novo Post
+date: {}
 categories: teste prose
+published: true
 ---
 
 bugado porra
+caralho
