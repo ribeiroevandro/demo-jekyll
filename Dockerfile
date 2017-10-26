@@ -1,5 +1,5 @@
 FROM jekyll/builder
 
-ADD . /src/jekyll
+ADD . /srv/jekyll
 
 CMD jekyll serve
